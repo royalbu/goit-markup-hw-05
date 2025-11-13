@@ -490,3 +490,23 @@ img {
 .footer-icon {
     fill: #f4f4fd;
 }
+
+.footer-form-p {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.footer-form {
+    gap: 24px;
+
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+}
