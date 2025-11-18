@@ -343,53 +343,60 @@
         </div>
 
     </footer>
-    <div class="modal-div">
-        <div class="modal-modal">
-            <button class="modal-button" type="button">
-                <svg class="modal-button-svg" width="8" height="8">
+    <div class="backdrop">
+        <div class="popup-review">
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+            <button class="close-popup" type="button">
+                <svg class="close-popup-svg" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black-18dp"></use>
                 </svg>
             </button>
-            <p class="modal-title">Leave your contacts and we will call you back</p>
-            <div class="popup-form-div">
-                <label class="popup-label" for="user-name">Name</label>
-                <div>
-                    <input type="text" name="user-name" class="popup-input">
-                    <svg class="user-name-svg" width="8" height="8">
-                        <use href="./images/icons.svg#icon-Vector-user"></use>
-                    </svg>
-                </div>
-            </div>
-            <div class="popup-form-div">
-                <label class="popup-label" for="user-name">Phone</label>
-                <div>
-                    <input type="text" name="user-name" class="popup-input">
-                    <svg class="user-name-svg" width="8" height="8">
-                        <use href="./images/icons.svg#icon-Phone"></use>
-                    </svg>
-                </div>
-            </div>
-            <div class="popup-form-div">
-                <label class="popup-label" for="user-name">Email</label>
-                <div>
-                    <input type="text" name="user-name" class="popup-input">
-                    <svg class="user-name-svg" width="8" height="8">
-                        <use href="./images/icons.svg#icon-Email"></use>
-                    </svg>
-                </div>
-            </div>
-            <div class="popup-form-div">
-                <label class="popup-label" for="user-name">Comment</label>
-                <div>
-                    <input type="text" name="user-name" class="popup-input">
-                    <svg class="user-name-svg" width="8" height="8">
-                        <use href="./images/icons.svg#icon-Vector-user"></use>
-                    </svg>
-                </div>
-            </div>
 
+            <form>
+                <div class="popup-form-div">
+                    <label class="label-field" for="user-name">Name</label>
+                    <div>
+                        <input type="text" name="user-name" class="popup-input">
+                        <svg class="user-name-svg" width="8" height="8">
+                            <use href="./images/icons.svg#icon-Vector-user"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="popup-form-div">
+                    <label class="label-field" for="user-name">Phone</label>
+                    <div>
+                        <input type="text" name="user-name" class="popup-input">
+                        <svg class="user-name-svg" width="8" height="8">
+                            <use href="./images/icons.svg#icon-Phone"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="popup-form-div">
+                    <label class="label-field" for="user-name">Email</label>
+                    <div>
+                        <input type="text" name="user-name" class="popup-input">
+                        <svg class="user-name-svg" width="8" height="8">
+                            <use href="./images/icons.svg#icon-Email"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="popup-form-div">
+                    <label class="label-field" for="user-name">Comment</label>
+                    <div>
+                        <textarea type="text" name="comment" class="comment" placeholder="Text input"></textarea>
+                    </div>
+                </div>
+                <div class="popup-form-div">
+                    <div class="firs-child-div">
+                        <input type="checkbox" id="policy" name="">
+                        <label class="label-field" for="policy">I accept the terms and conditions of the <a href=""
+                                class="accent">Privacy Policy</a></label>
 
+                    </div>
+                </div>
+                <button type="submit">Send</button>
         </div>
+        </form>
     </div>
 </body>
 
