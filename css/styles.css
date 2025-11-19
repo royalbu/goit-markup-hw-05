@@ -1,5 +1,7 @@
 :root {
     --main-color: #f4f4fd;
+    --light-slate: #8e8f99;
+    --navy-blue: #2e2f42;
 }
 
 body {
@@ -569,11 +571,15 @@ img {
 .close-popup:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .close-popup-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
 
 .backdrop {
     position: fixed;
@@ -585,6 +591,7 @@ img {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .popup-review {
@@ -601,11 +608,34 @@ img {
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
+    overflow: auto;
+}
+
+.popup-form-div {
+    margin-bottom: 8px;
 }
 
 
+.popup-form-div:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
 
+.field-input-svg {
+    position: relative;
+}
 
+.popup-input {
+    border-radius: 4px;
+    width: 360px;
+    height: 58px;
+}
+
+.field-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
 
 .modal-title {
     font-weight: 500;
@@ -613,8 +643,15 @@ img {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--navy-blue);
     margin-bottom: 16px;
 }
 
-.label-field {}
+.label-field {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: var(--light-slate);
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
+}

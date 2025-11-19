@@ -295,6 +295,8 @@
             </div>
         </section>
     </main>
+
+    <!-- Begin of footer -->
     <footer class="footer">
         <div class="container footer-container">
             <div class="footer-div-second"><a class="footer-nav-logo" href="./index.html">Web<span
@@ -341,8 +343,9 @@
                 </form>
             </div>
         </div>
-
     </footer>
+    <!-- End of footer -->
+    <!-- Begin of modal -->
     <div class="backdrop">
         <div class="popup-review">
             <p class="modal-title">Leave your contacts and we will call you back</p>
@@ -355,48 +358,48 @@
             <form>
                 <div class="popup-form-div">
                     <label class="label-field" for="user-name">Name</label>
-                    <div>
+                    <div class="field-input-svg">
                         <input type="text" name="user-name" class="popup-input">
-                        <svg class="user-name-svg" width="8" height="8">
+                        <svg class="field-icon" width="18" height="18">
                             <use href="./images/icons.svg#icon-Vector-user"></use>
                         </svg>
                     </div>
                 </div>
                 <div class="popup-form-div">
                     <label class="label-field" for="user-name">Phone</label>
-                    <div>
+                    <div class="field-input-svg">
                         <input type="text" name="user-name" class="popup-input">
-                        <svg class="user-name-svg" width="8" height="8">
+                        <svg class="field-icon" width="18" height="18">
                             <use href="./images/icons.svg#icon-Phone"></use>
                         </svg>
                     </div>
                 </div>
                 <div class="popup-form-div">
                     <label class="label-field" for="user-name">Email</label>
-                    <div>
+                    <div class="field-input-svg">
                         <input type="text" name="user-name" class="popup-input">
-                        <svg class="user-name-svg" width="8" height="8">
+                        <svg class="field-icon" width="18" height="18">
                             <use href="./images/icons.svg#icon-Email"></use>
                         </svg>
                     </div>
                 </div>
                 <div class="popup-form-div">
-                    <label class="label-field" for="user-name">Comment</label>
+                    <label class="label-field" for="comment">Comment</label>
                     <div>
-                        <textarea type="text" name="comment" class="comment" placeholder="Text input"></textarea>
+                        <textarea name="comment" id="comment" placeholder="Text input"></textarea>
                     </div>
                 </div>
                 <div class="popup-form-div">
                     <div class="firs-child-div">
-                        <input type="checkbox" id="policy" name="">
+                        <input type="checkbox" id="policy" name="policy" value="true">
                         <label class="label-field" for="policy">I accept the terms and conditions of the <a href=""
                                 class="accent">Privacy Policy</a></label>
 
                     </div>
                 </div>
                 <button type="submit">Send</button>
+            </form>
         </div>
-        </form>
     </div>
 </body>
 
