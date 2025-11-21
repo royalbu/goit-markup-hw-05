@@ -743,19 +743,10 @@ img {
     border: none;
 }
 
-.policy-label a {
+.label-link {
     text-decoration: underline;
     color: #4d5ae5;
 }
-
-/* .custom-checkbox {
-
-
-} */
-
-/* .popup-link-privacy {
-    color: var(--iris);
-} */
 
 .button-send {
     display: block;
@@ -774,6 +765,8 @@ img {
     letter-spacing: 0.04em;
     text-align: center;
     color: var(--white);
+    border: none;
+    margin: auto;
 }
 
 /* #endregion popup*/
